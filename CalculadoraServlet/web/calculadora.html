@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora shida uwu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            @import url("Estilo.css");
+        </style>
+        <link href='https://fonts.googleapis.com/css?family=Sonsie One' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Audiowide' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Krona One' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Exo 2' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="wea">
+            <form method="POST" action='ServletCalc'>
+            <center>
+                <br><br>
+                <h2>Escribe los números dentro de las casillas</h2>
+                <h3>(a partir de la operación seno se coloca un cero en el Número 2)</h3>
+                <br>
+                Número 1 <input type="number" name="No1" class="No1" placeholder="0"><br><br>
+                Número 2 <input type="number" name="No2" class="No2" placeholder="0"><br><br>
+                <hr><br>
+                <h2>Seleccione la Operación</h2><br>
+                <select name="Operacion" class="Operacion">
+                    <option value="Nulo">Seleccione una operacion</option>
+                    <option value="Suma">Suma</option>
+                    <option value="Resta">Resta</option>
+                    <option value="Division">Division</option>
+                    <option value="Multiplicacion">Multiplicacion</option>
+                    <option value="Seno">Seno</option>
+                    <option value="Coseno">Coseno</option>
+                    <option value="Tangente">Tangente</option>
+                    <option value="Logaritmo natural">Logaritmo natural</option>
+                    <option value="Logaritmo base 10">Logaritmo base 10</option>
+                    <option value="Exponente">Exponente</option>
+                </select>
+                <br><br><br>
+                <input type="submit" value="Calcular" name="Aceptar" class="Aceptar">
+            </center>
+            </form>
+        </div>
+    </body>
+</html>
